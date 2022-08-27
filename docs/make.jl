@@ -10,7 +10,7 @@ makedocs(;
     sitename="FindRoot.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://xiar-fatah.github.io/FindRoot.jl",
+        canonical="https://Xiar-fatah.github.io/FindRoot.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/xiar-fatah/FindRoot.jl",
+    repo="github.com/Xiar-fatah/FindRoot.jl",
     devbranch="main",
 )
